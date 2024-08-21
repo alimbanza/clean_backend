@@ -11,8 +11,8 @@ const CollecteModel         = require('../models/collecte');
 const CollecteDechetModel   = require('../models/collecte_dechet');
 const PaiementModel         = require('../models/paiement');
 
-const sequelize = new Sequelize("clean_app","root",'',{
-    host    : "localhost",
+const sequelize = new Sequelize("loanmesfn_clean","loanmesfn_clean",'HGB?JCfPV#mb',{
+    host    : "207.180.255.235",
 	port	: "3306",
     dialect : "mysql"
 });
