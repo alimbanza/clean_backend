@@ -13,7 +13,7 @@ const PaiementModel         = require('../models/paiement');
 
 const sequelize = new Sequelize("loanmesfn_clean","loanmesfn_clean",'HGB?JCfPV#mb',{
     host    : "207.180.255.235",
-	port	: "3306",
+    port    : "3306",
     dialect : "mysql"
 });
 
