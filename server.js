@@ -34,7 +34,9 @@ app.use('/zone',authMiddleware,require('./routes/zone.route'));
 app.use('/collecte',authMiddleware,require('./routes/collecte.route'));
 app.use('/paiement',authMiddleware,require('./routes/paiement'));
 //app.use('/organisation',require('./routes/organisation.route'));
-
+app.get('/test',function(req,res){
+  res.send('Bonjour');
+});
 // app.use('/login',require('./routes/auth.route'));
 // app.use('/',require('./routes/home.route'));
 
